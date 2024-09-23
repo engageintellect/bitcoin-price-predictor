@@ -5,6 +5,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 import mplfinance as mpf  # Import mplfinance for candlestick chart
 import matplotlib.pyplot as plt  # Import matplotlib to handle show()
+import json  # For handling JSON file operations
+import os  # For checking if the JSON file exists
 
 # Step 1: Fetch Bitcoin data using yfinance
 btc_data = yf.download('BTC-USD', start='2014-01-01', end=pd.Timestamp.now().strftime('%Y-%m-%d'))
@@ -32,17 +34,41 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle
 rf_model = RandomForestClassifier(n_estimators=100, random_state=42)
 rf_model.fit(X_train, y_train)
 
-
 # Step 6: Predict if the price will go up or down tomorrow
 latest_data = X.iloc[-1].to_frame().T  # Keep the feature names by converting to a DataFrame
 prediction = rf_model.predict(latest_data)  # Predict tomorrow's movement
-if prediction == 1:
-    print("The model predicts that Bitcoin's price will go UP tomorrow.")
+
+# Prepare the prediction result
+prediction_result = "UP" if prediction == 1 else "DOWN"
+print(f"The model predicts that Bitcoin's price will go {prediction_result} tomorrow.")
+
+# Step 7: Save the prediction to a JSON file with the current date
+prediction_data = {
+    'Date': pd.Timestamp.now().strftime('%Y-%m-%d'),
+    'Prediction': prediction_result,
+    'Close_Price': btc_data['Close'].iloc[-1]  # Add the current close price for reference
+}
+
+# Define the JSON file path
+json_file = './data/btc_price_predictions.json'
+
+# Check if the JSON file exists
+if os.path.exists(json_file):
+    # Load the existing data from the JSON file
+    with open(json_file, 'r') as file:
+        data = json.load(file)
 else:
-    print("The model predicts that Bitcoin's price will go DOWN tomorrow.")
+    # If the file does not exist, create an empty list
+    data = []
 
+# Append the new prediction to the list
+data.append(prediction_data)
 
-# Step 7: Render candlestick chart for historical data with 200d moving average (Last 365 days)
+# Write the updated list back to the JSON file
+with open(json_file, 'w') as file:
+    json.dump(data, file, indent=4)
+
+# Step 8: Render candlestick chart for historical data with 200d moving average (Last 365 days)
 mpf.plot(
     btc_data[-365:],  # Plot the last 365 days of data
     type='candle',  # Candlestick chart
@@ -55,7 +81,7 @@ mpf.plot(
     block=False  # Ensure the chart does not block execution
 )
 
-# Step 8: Render candlestick chart for historical data without 200d MA (Last 180 days)
+# Step 9: Render candlestick chart for historical data without 200d MA (Last 180 days)
 mpf.plot(
     btc_data[-180:],  # Plot the last 180 days of data
     type='candle',  # Candlestick chart
@@ -67,7 +93,7 @@ mpf.plot(
     block=False  # Ensure the chart does not block execution
 )
 
-# Step 9: Render candlestick chart for last 30 days without 200d MA
+# Step 10: Render candlestick chart for last 30 days without 200d MA
 mpf.plot(
     btc_data[-30:],  # Plot the last 30 days of data
     type='candle',  # Candlestick chart
@@ -79,6 +105,6 @@ mpf.plot(
     block=False  # Ensure the chart does not block execution
 )
 
-# Step 10: Show all charts at once
+# Step 11: Show all charts at once
 plt.show()  # This will display all charts simultaneously
 
