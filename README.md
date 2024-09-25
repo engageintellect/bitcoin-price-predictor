@@ -29,6 +29,8 @@ The following Python libraries are required to run the script:
 - `scikit-learn`: For training the Random Forest model.
 - `mplfinance`: For rendering candlestick charts.
 - `matplotlib`: For managing chart displays.
+- `fastapi`: For creating an API endpoint to serve JSON prediction data.
+- `uvicorn`: For serving the FastAPI endpoint.
 
 You can install the required libraries using the following command:
 ```
