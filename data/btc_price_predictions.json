@@ -3,5 +3,21 @@
         "Date": "2024-09-22",
         "Prediction": "UP",
         "Close_Price": 63394.83984375
+    },
+    {
+        "Date": "2024-09-23",
+        "Prediction": "UP",
+        "Close_Price": 63648.7109375
+    },
+    {
+        "Date": "2024-09-24",
+        "Prediction": "DOWN",
+        "Close_Price": 63329.80078125
+    },
+    {
+        "Date": "2024-09-24",
+        "Prediction": "DOWN",
+        "Open_Price": 63643.1015625,
+        "Close_Price": 63329.80078125
     }
 ]

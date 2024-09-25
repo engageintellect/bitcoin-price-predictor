@@ -46,7 +46,8 @@ print(f"The model predicts that Bitcoin's price will go {prediction_result} tomo
 prediction_data = {
     'Date': pd.Timestamp.now().strftime('%Y-%m-%d'),
     'Prediction': prediction_result,
-    'Close_Price': btc_data['Close'].iloc[-1]  # Add the current close price for reference
+    'Open_Price': btc_data['Open'].iloc[-1],  
+    'Close_Price': btc_data['Close'].iloc[-1]
 }
 
 # Define the JSON file path
