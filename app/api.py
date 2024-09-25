@@ -5,7 +5,7 @@ import uvicorn  # Import Uvicorn
 
 app = FastAPI()
 
-json_file = './data/btc_price_predictions.json'
+json_file = '../data/btc_price_predictions.json'
 
 @app.get("/predictions")
 async def get_predictions():

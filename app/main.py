@@ -51,7 +51,7 @@ prediction_data = {
 }
 
 # Define the JSON file path
-json_file = './data/btc_price_predictions.json'
+json_file = '../data/btc_price_predictions.json'
 
 # Check if the JSON file exists
 if os.path.exists(json_file):
