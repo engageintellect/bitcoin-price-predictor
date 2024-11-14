@@ -34,6 +34,10 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle
 rf_model = RandomForestClassifier(n_estimators=100, random_state=42)
 rf_model.fit(X_train, y_train)
 
+# Step 5.5: Evaluate the model's accuracy on the test set
+accuracy = rf_model.score(X_test, y_test)
+print(f"Model Accuracy: {accuracy:.2f}")
+
 # Step 6: Predict if the price will go up or down tomorrow
 latest_data = X.iloc[-1].to_frame().T  # Keep the feature names by converting to a DataFrame
 prediction = rf_model.predict(latest_data)  # Predict tomorrow's movement
@@ -44,10 +48,10 @@ print(f"The model predicts that Bitcoin's price will go {prediction_result} tomo
 
 # Step 7: Save the prediction to a JSON file with the current date
 prediction_data = {
-    'Date': pd.Timestamp.now().strftime('%Y-%m-%d'),
-    'Prediction': prediction_result,
-    'Open_Price': btc_data['Open'].iloc[-1],  
-    'Close_Price': btc_data['Close'].iloc[-1]
+    'date': pd.Timestamp.now().strftime('%Y-%m-%d'),
+    'prediction': prediction_result,
+    'openPrice': btc_data['Open'].iloc[-1],  
+    'closePrice': btc_data['Close'].iloc[-1]
 }
 
 # Define the JSON file path

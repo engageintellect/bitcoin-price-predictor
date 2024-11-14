@@ -1,8 +1,368 @@
 [
     {
-        "Date": "2024-09-25",
-        "Prediction": "UP",
-        "Open_Price": 63326.83984375,
-        "Close_Price": 64301.96875
+        "date": "2024-09-25",
+        "prediction": "UP",
+        "openPrice": 63326.83984375,
+        "closePrice": 64301.96875
+    },
+    {
+        "date": "2024-09-26",
+        "prediction": "DOWN",
+        "openPrice": 64302.58984375,
+        "closePrice": 63143.14453125
+    },
+    {
+        "date": "2024-09-27",
+        "prediction": "UP",
+        "openPrice": 63138.546875,
+        "closePrice": 65181.01953125
+    },
+    {
+        "date": "2024-09-28",
+        "prediction": "UP",
+        "openPrice": 65180.6640625,
+        "closePrice": 65790.6640625
+    },
+    {
+        "date": "2024-09-29",
+        "prediction": "UP",
+        "openPrice": 65792.1796875,
+        "closePrice": 65887.6484375
+    },
+    {
+        "date": "2024-09-30",
+        "prediction": "DOWN",
+        "openPrice": 65888.8984375,
+        "closePrice": 65635.3046875
+    },
+    {
+        "date": "2024-10-01",
+        "prediction": "DOWN",
+        "openPrice": 65634.65625,
+        "closePrice": 63329.5
+    },
+    {
+        "date": "2024-10-02",
+        "prediction": "DOWN",
+        "openPrice": 65634.65625,
+        "closePrice": 63329.5
+    },
+    {
+        "date": "2024-10-03",
+        "prediction": "DOWN",
+        "openPrice": 60836.32421875,
+        "closePrice": 60632.78515625
+    },
+    {
+        "date": "2024-10-04",
+        "prediction": "UP",
+        "openPrice": 60632.484375,
+        "closePrice": 60759.40234375
+    },
+    {
+        "date": "2024-10-05",
+        "prediction": "UP",
+        "openPrice": 60754.625,
+        "closePrice": 62067.4765625
+    },
+    {
+        "date": "2024-10-06",
+        "prediction": "UP",
+        "openPrice": 62067.609375,
+        "closePrice": 62089.94921875
+    },
+    {
+        "date": "2024-10-07",
+        "prediction": "UP",
+        "openPrice": 62084.98828125,
+        "closePrice": 62818.953125
+    },
+    {
+        "date": "2024-10-08",
+        "prediction": "DOWN",
+        "openPrice": 62819.109375,
+        "closePrice": 62236.66015625
+    },
+    {
+        "date": "2024-10-09",
+        "prediction": "DOWN",
+        "openPrice": 62819.109375,
+        "closePrice": 62236.66015625
+    },
+    {
+        "date": "2024-10-10",
+        "prediction": "DOWN",
+        "openPrice": 62221.64453125,
+        "closePrice": 62131.96875
+    },
+    {
+        "date": "2024-10-11",
+        "prediction": "DOWN",
+        "openPrice": 62131.7265625,
+        "closePrice": 60582.1015625
+    },
+    {
+        "date": "2024-10-12",
+        "prediction": "DOWN",
+        "openPrice": 60581.9296875,
+        "closePrice": 60274.5
+    },
+    {
+        "date": "2024-10-13",
+        "prediction": "UP",
+        "openPrice": 60275.4609375,
+        "closePrice": 62445.08984375
+    },
+    {
+        "date": "2024-10-14",
+        "prediction": "DOWN",
+        "openPrice": 63192.9453125,
+        "closePrice": 62851.375
+    },
+    {
+        "date": "2024-10-15",
+        "prediction": "UP",
+        "openPrice": 62848.3984375,
+        "closePrice": 66046.125
+    },
+    {
+        "date": "2024-10-16",
+        "prediction": "UP",
+        "openPrice": 66050.3671875,
+        "closePrice": 67041.109375
+    },
+    {
+        "date": "2024-10-17",
+        "prediction": "UP",
+        "openPrice": 66050.3671875,
+        "closePrice": 67041.109375
+    },
+    {
+        "date": "2024-10-18",
+        "prediction": "DOWN",
+        "openPrice": 67617.078125,
+        "closePrice": 67399.8359375
+    },
+    {
+        "date": "2024-10-19",
+        "prediction": "UP",
+        "openPrice": 67419.109375,
+        "closePrice": 68418.7890625
+    },
+    {
+        "date": "2024-10-20",
+        "prediction": "DOWN",
+        "openPrice": 68418.9765625,
+        "closePrice": 68362.734375
+    },
+    {
+        "date": "2024-10-21",
+        "prediction": "UP",
+        "openPrice": 68364.1796875,
+        "closePrice": 69001.703125
+    },
+    {
+        "date": "2024-10-22",
+        "prediction": "DOWN",
+        "openPrice": 69002.0,
+        "closePrice": 67367.8515625
+    },
+    {
+        "date": "2024-10-23",
+        "prediction": "DOWN",
+        "openPrice": 67360.703125,
+        "closePrice": 67361.40625
+    },
+    {
+        "date": "2024-10-24",
+        "prediction": "DOWN",
+        "openPrice": 67362.375,
+        "closePrice": 66432.1953125
+    },
+    {
+        "date": "2024-10-25",
+        "prediction": "UP",
+        "openPrice": 66653.703125,
+        "closePrice": 68161.0546875
+    },
+    {
+        "date": "2024-10-26",
+        "prediction": "DOWN",
+        "openPrice": 68165.296875,
+        "closePrice": 66642.4140625
+    },
+    {
+        "date": "2024-10-27",
+        "prediction": "UP",
+        "openPrice": 66628.734375,
+        "closePrice": 67014.6953125
+    },
+    {
+        "date": "2024-10-28",
+        "prediction": "UP",
+        "openPrice": 67023.4765625,
+        "closePrice": 67929.296875
+    },
+    {
+        "date": "2024-10-29",
+        "prediction": "UP",
+        "openPrice": 67922.671875,
+        "closePrice": 69907.7578125
+    },
+    {
+        "date": "2024-10-30",
+        "prediction": "UP",
+        "openPrice": 69910.046875,
+        "closePrice": 72720.4921875
+    },
+    {
+        "date": "2024-10-31",
+        "prediction": "DOWN",
+        "openPrice": 72715.3671875,
+        "closePrice": 72339.5390625
+    },
+    {
+        "date": "2024-11-01",
+        "prediction": "DOWN",
+        "openPrice": 72335.046875,
+        "closePrice": 70215.1875
+    },
+    {
+        "date": "2024-11-02",
+        "prediction": "DOWN",
+        "openPrice": 70216.8984375,
+        "closePrice": 69482.46875
+    },
+    {
+        "date": "2024-11-03",
+        "prediction": "DOWN",
+        "openPrice": 69486.0234375,
+        "closePrice": 69289.2734375
+    },
+    {
+        "date": "2024-11-04",
+        "prediction": "DOWN",
+        "openPrice": 69296.3828125,
+        "closePrice": 68741.1171875
+    },
+    {
+        "date": "2024-11-05",
+        "prediction": "DOWN",
+        "openPrice": 68742.1328125,
+        "closePrice": 67811.5078125
+    },
+    {
+        "date": "2024-11-06",
+        "prediction": "UP",
+        "openPrice": 67811.171875,
+        "closePrice": 69359.5625
+    },
+    {
+        "date": "2024-11-07",
+        "prediction": "UP",
+        "openPrice": 69358.5,
+        "closePrice": 75639.078125
+    },
+    {
+        "date": "2024-11-08",
+        "prediction": "UP",
+        "openPrice": 75637.0859375,
+        "closePrice": 75904.859375
+    },
+    {
+        "date": "2024-11-09",
+        "prediction": "UP",
+        "openPrice": 75902.8359375,
+        "closePrice": 76545.4765625
+    },
+    {
+        "date": "2024-11-10",
+        "prediction": "UP",
+        "openPrice": 76556.1875,
+        "closePrice": 76583.5234375
+    },
+    {
+        "date": "2024-11-11",
+        "prediction": "UP",
+        "openPrice": 76775.546875,
+        "closePrice": 80474.1875
+    },
+    {
+        "date": "2024-11-12",
+        "prediction": "UP",
+        "openPrice": 80471.4140625,
+        "closePrice": 88701.484375
+    },
+    {
+        "date": "2024-11-13",
+        "prediction": "DOWN",
+        "openPrice": 88705.5625,
+        "closePrice": 87955.8125
+    },
+    {
+        "date": "2024-11-13",
+        "prediction": "DOWN",
+        "openPrice": 88705.5625,
+        "closePrice": 87955.8125
+    },
+    {
+        "date": "2024-11-13",
+        "prediction": "DOWN",
+        "openPrice": 88705.5625,
+        "closePrice": 87955.8125
+    },
+    {
+        "date": "2024-11-13",
+        "prediction": "DOWN",
+        "openPrice": 88705.5625,
+        "closePrice": 87955.8125
+    },
+    {
+        "date": "2024-11-13",
+        "prediction": "DOWN",
+        "openPrice": 88705.5625,
+        "closePrice": 87955.8125
+    },
+    {
+        "date": "2024-11-13",
+        "prediction": "DOWN",
+        "openPrice": 88705.5625,
+        "closePrice": 87955.8125
+    },
+    {
+        "date": "2024-11-13",
+        "prediction": "DOWN",
+        "openPrice": 88705.5625,
+        "closePrice": 87955.8125
+    },
+    {
+        "date": "2024-11-13",
+        "prediction": "DOWN",
+        "openPrice": 88705.5625,
+        "closePrice": 87955.8125
+    },
+    {
+        "date": "2024-11-13",
+        "prediction": "DOWN",
+        "openPrice": 88705.5625,
+        "closePrice": 87955.8125
+    },
+    {
+        "date": "2024-11-13",
+        "prediction": "DOWN",
+        "openPrice": 88705.5625,
+        "closePrice": 87955.8125
+    },
+    {
+        "date": "2024-11-13",
+        "prediction": "DOWN",
+        "openPrice": 88705.5625,
+        "closePrice": 87955.8125
+    },
+    {
+        "date": "2024-11-13",
+        "prediction": "DOWN",
+        "openPrice": 88705.5625,
+        "closePrice": 87955.8125
     }
 ]
