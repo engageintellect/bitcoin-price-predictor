@@ -33,14 +33,15 @@ async def get_predictions():
 
             # Calculate the percentage of correct predictions
             accuracy_percentage = (correct_predictions / total_predictions) * 100
-            out = f"{accuracy_percentage:.2f}%"
+            predictionAccuracy = f"{accuracy_percentage:.2f}%"
 
         except json.JSONDecodeError:
             raise HTTPException(status_code=500, detail="Error reading prediction data.")
 
     # Make sure predictions come first in the output
     return {
-        'predictionAccuracy': out,
+        'predictionAccuracy': predictionAccuracy,
+        'totalPredictions': total_predictions,
         'predictions': data,
     }
 
