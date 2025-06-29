@@ -176,21 +176,6 @@ try:
     clean_df = merged_df[required_columns].dropna()
     clean_df = clean_df.apply(pd.to_numeric, errors='coerce')
     clean_df.dropna(inplace=True)
-    clean_df = clean_df.astype(float)
-
-    # Ensure DatetimeIndex
-    if not isinstance(clean_df.index, pd.DatetimeIndex):
-        clean_df.index = pd.to_datetime(clean_df.index)
-
-    # Flatten MultiIndex columns if present
-    if isinstance(clean_df.columns, pd.MultiIndex):
-        clean_df.columns = [col[0] if isinstance(col, tuple) else col for col in clean_df.columns]
-
-    # Debug info
-    print("Sample of clean_df used for plotting:")
-    print(clean_df.tail(5))
-    print("Dtypes of clean_df:")
-    print(clean_df.dtypes)
 
     valid = clean_df.apply(lambda col: col.map(lambda x: isinstance(x, (int, float)))).all().all()
 

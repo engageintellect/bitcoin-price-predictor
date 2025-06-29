@@ -182,10 +182,6 @@ try:
     if not isinstance(clean_df.index, pd.DatetimeIndex):
         clean_df.index = pd.to_datetime(clean_df.index)
 
-    # Flatten MultiIndex columns if present
-    if isinstance(clean_df.columns, pd.MultiIndex):
-        clean_df.columns = [col[0] if isinstance(col, tuple) else col for col in clean_df.columns]
-
     # Debug info
     print("Sample of clean_df used for plotting:")
     print(clean_df.tail(5))

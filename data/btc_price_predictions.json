@@ -952,5 +952,281 @@
         "prediction": "UP",
         "openPrice": 81066.9921875,
         "closePrice": 83969.1015625
+    },
+    {
+        "date": "2025-03-16",
+        "prediction": "UP",
+        "openPrice": 83968.40625,
+        "closePrice": 84343.109375
+    },
+    {
+        "date": "2025-03-18",
+        "prediction": "UP",
+        "openPrice": 82576.3359375,
+        "closePrice": 84075.6875
+    },
+    {
+        "date": "2025-03-19",
+        "prediction": "DOWN",
+        "openPrice": 84075.71875,
+        "closePrice": 82718.5
+    },
+    {
+        "date": "2025-03-20",
+        "prediction": "UP",
+        "openPrice": 82718.8046875,
+        "closePrice": 86854.2265625
+    },
+    {
+        "date": "2025-03-21",
+        "prediction": "DOWN",
+        "openPrice": 86872.953125,
+        "closePrice": 84167.1953125
+    },
+    {
+        "date": "2025-03-26",
+        "prediction": "DOWN",
+        "openPrice": 87512.8203125,
+        "closePrice": 87471.703125
+    },
+    {
+        "date": "2025-03-27",
+        "prediction": "DOWN",
+        "openPrice": 87460.234375,
+        "closePrice": 86900.8828125
+    },
+    {
+        "date": "2025-03-28",
+        "prediction": "UP",
+        "openPrice": 86896.2578125,
+        "closePrice": 87177.1015625
+    },
+    {
+        "date": "2025-03-29",
+        "prediction": "DOWN",
+        "openPrice": 87185.234375,
+        "closePrice": 84353.1484375
+    },
+    {
+        "date": "2025-03-30",
+        "prediction": "DOWN",
+        "openPrice": 84352.0703125,
+        "closePrice": 82597.5859375
+    },
+    {
+        "date": "2025-03-31",
+        "prediction": "DOWN",
+        "openPrice": 82596.984375,
+        "closePrice": 82334.5234375
+    },
+    {
+        "date": "2025-04-01",
+        "prediction": "UP",
+        "openPrice": 82336.0625,
+        "closePrice": 82548.9140625
+    },
+    {
+        "date": "2025-04-02",
+        "prediction": "UP",
+        "openPrice": 82551.921875,
+        "closePrice": 85169.171875
+    },
+    {
+        "date": "2025-04-03",
+        "prediction": "DOWN",
+        "openPrice": 85180.609375,
+        "closePrice": 82485.7109375
+    },
+    {
+        "date": "2025-04-04",
+        "prediction": "UP",
+        "openPrice": 82487.4765625,
+        "closePrice": 83102.828125
+    },
+    {
+        "date": "2025-04-05",
+        "prediction": "UP",
+        "openPrice": 83100.25,
+        "closePrice": 83843.8046875
+    },
+    {
+        "date": "2025-04-06",
+        "prediction": "DOWN",
+        "openPrice": 83844.703125,
+        "closePrice": 83504.796875
+    },
+    {
+        "date": "2025-04-07",
+        "prediction": "DOWN",
+        "openPrice": 83504.5078125,
+        "closePrice": 78214.484375
+    },
+    {
+        "date": "2025-04-08",
+        "prediction": "UP",
+        "openPrice": 78221.3359375,
+        "closePrice": 79235.3359375
+    },
+    {
+        "date": "2025-04-09",
+        "prediction": "DOWN",
+        "openPrice": 79218.4765625,
+        "closePrice": 76271.953125
+    },
+    {
+        "date": "2025-04-10",
+        "prediction": "UP",
+        "openPrice": 76273.5625,
+        "closePrice": 82573.953125
+    },
+    {
+        "date": "2025-04-11",
+        "prediction": "DOWN",
+        "openPrice": 82565.9765625,
+        "closePrice": 79626.140625
+    },
+    {
+        "date": "2025-04-12",
+        "prediction": "UP",
+        "openPrice": 79625.046875,
+        "closePrice": 83404.8359375
+    },
+    {
+        "date": "2025-04-13",
+        "prediction": "UP",
+        "openPrice": 83404.515625,
+        "closePrice": 85287.109375
+    },
+    {
+        "date": "2025-04-14",
+        "prediction": "DOWN",
+        "openPrice": 85279.46875,
+        "closePrice": 83684.9765625
+    },
+    {
+        "date": "2025-04-15",
+        "prediction": "UP",
+        "openPrice": 83694.5234375,
+        "closePrice": 84542.390625
+    },
+    {
+        "date": "2025-04-16",
+        "prediction": "DOWN",
+        "openPrice": 84539.6953125,
+        "closePrice": 83668.9921875
+    },
+    {
+        "date": "2025-04-17",
+        "prediction": "UP",
+        "openPrice": 83674.5078125,
+        "closePrice": 84033.8671875
+    },
+    {
+        "date": "2025-04-18",
+        "prediction": "UP",
+        "openPrice": 84030.671875,
+        "closePrice": 84895.75
+    },
+    {
+        "date": "2025-04-19",
+        "prediction": "DOWN",
+        "openPrice": 84900.1875,
+        "closePrice": 84450.8046875
+    },
+    {
+        "date": "2025-04-20",
+        "prediction": "UP",
+        "openPrice": 84450.8671875,
+        "closePrice": 85063.4140625
+    },
+    {
+        "date": "2025-04-22",
+        "prediction": "UP",
+        "openPrice": 85171.5390625,
+        "closePrice": 87518.90625
+    },
+    {
+        "date": "2025-04-23",
+        "prediction": "UP",
+        "openPrice": 87521.875,
+        "closePrice": 93441.890625
+    },
+    {
+        "date": "2025-04-24",
+        "prediction": "UP",
+        "openPrice": 93427.5859375,
+        "closePrice": 93699.109375
+    },
+    {
+        "date": "2025-04-25",
+        "prediction": "UP",
+        "openPrice": 93692.3984375,
+        "closePrice": 93943.796875
+    },
+    {
+        "date": "2025-04-26",
+        "prediction": "UP",
+        "openPrice": 93954.25,
+        "closePrice": 94720.5
+    },
+    {
+        "date": "2025-04-27",
+        "prediction": "DOWN",
+        "openPrice": 94714.6484375,
+        "closePrice": 94646.9296875
+    },
+    {
+        "date": "2025-04-28",
+        "prediction": "DOWN",
+        "openPrice": 94660.90625,
+        "closePrice": 93754.84375
+    },
+    {
+        "date": "2025-04-29",
+        "prediction": "UP",
+        "openPrice": 93755.3046875,
+        "closePrice": 94978.75
+    },
+    {
+        "date": "2025-05-19",
+        "prediction": "UP",
+        "openPrice": 103186.953125,
+        "closePrice": 106446.0078125
+    },
+    {
+        "date": "2025-05-22",
+        "prediction": "UP",
+        "openPrice": 106791.3125,
+        "closePrice": 109678.078125
+    },
+    {
+        "date": "2025-06-20",
+        "prediction": "DOWN",
+        "openPrice": 104886.7734375,
+        "closePrice": 104684.2890625
+    },
+    {
+        "date": "2025-06-21",
+        "prediction": "DOWN",
+        "openPrice": 104681.03125,
+        "closePrice": 103309.6015625
+    },
+    {
+        "date": "2025-06-26",
+        "prediction": "UP",
+        "openPrice": 106047.40625,
+        "closePrice": 107361.2578125
+    },
+    {
+        "date": "2025-06-28",
+        "prediction": "UP",
+        "openPrice": 107092.3203125,
+        "closePrice": 107300.171875
+    },
+    {
+        "date": "2025-06-29",
+        "prediction": "UP",
+        "openPrice": 107321.96875,
+        "closePrice": 107391.8671875
     }
 ]
